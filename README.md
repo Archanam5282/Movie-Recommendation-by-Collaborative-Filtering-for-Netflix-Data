@@ -59,6 +59,8 @@ There are 5 codes in the SCR folder :
 
 4) Netflix_problem3b - Checking if the approach works when my own preferences of movies are given as input
 
+Note : The data for the above 4 codes is not provided in the repository. Data can be found thorugh lot of online sources
+
 5) Netflix_problem3c - Implemented the same approach on Amazon Product Data downloaded from https://nijianmo.github.io/amazon/index.html 
 
 
