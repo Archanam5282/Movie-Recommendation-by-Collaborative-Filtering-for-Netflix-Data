@@ -1,0 +1,11 @@
+Netflix_problem1 - ALS approach (Revising)
+
+Netflix_problem2 - Analyzing the Netflix Data using user-similarities and item-similarity and implementing correlation approach
+
+Netflix_problem3a - Applying the user-similarities with correlation on the entire data
+
+Netflix_problem3b - Checking if the approach works when my own preferences of movies are given as input
+
+Note : The data for the above 4 codes is not provided in the repository.
+
+Netflix_problem3c - Implemented the same approach on Amazon Product Data downloaded from https://nijianmo.github.io/amazon/index.html
