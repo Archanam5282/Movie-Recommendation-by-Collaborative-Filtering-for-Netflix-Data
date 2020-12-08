@@ -47,16 +47,24 @@ RMSE is just the square root of MSE. The predicted values can be positive or neg
 ## Description of the codes
 ProjectReport.pdf  - project report that include the documentation and results
 
+
 There are 5 codes in the SCR folder :
-1) Netflix_problem1
+(The clear description is given in the report and in the jupyter notbook)
 
-2) Netflix_problem2
+1) Netflix_problem1 - ALS approach (Revising)
 
-3) Netflix_problem3a
+2) Netflix_problem2 - Analyzing the Netflix Data using user-similarities and item-similarity and implementing correlation approach
 
-4) Netflix_problem3b
+3) Netflix_problem3a - Applying the user-similarities with correlation on the entire data 
 
-5) Netflix_problem3c
+4) Netflix_problem3b - Checking if the approach works when my own preferences of movies are given as input
+
+5) Netflix_problem3c - Implemented the same approach on Amazon Product Data downloaded from https://nijianmo.github.io/amazon/index.html 
 
 
+## Conclusion
+
+Collaborative filtering approach was used to predict the ratings of the Netflix users. Correlation similarity measure was used measure the strength of a linear association between input users and the users. Weighted average of the ratings of the movies was computed using the Pearson Correlation as the weight. User-user model for completed dataset was implanted and the approach was evaluated using methods like Mean Absolute Error and Root Mean Squared Error. 
+
+Overall, we can say that collaborative filtering takes other user’s ratings into consideration, it doesn’t need to study or extract information from the recommended item, and it adapts to the user’s interests which might change over time.
 
