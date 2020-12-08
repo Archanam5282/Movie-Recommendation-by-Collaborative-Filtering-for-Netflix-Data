@@ -6,7 +6,7 @@ Flow of this document:
 
 2) Approach used 
 
-3) Description of the codes
+3) Description of the uploaded files
 
 4) Conclusion
 
@@ -31,22 +31,32 @@ The project follows the below approaches:
 •	Evaluation- Mean Absolute Error and Root Mean Squared Error
 
 ### User-user
-
 In order to make a new recommendation to a user, user-user method roughly tries to identify users with the most similar “interactions profile” (nearest neighbours) to suggest items that are the most popular among these neighbours which are are new to the user. This method is said to be “user-centred” as it represent users based on their interactions with items and evaluate distances between users.
 
 
 ### Evaluation Methods:
-
 There are many evaluation metrics but one of the most popular metric used to evaluate accuracy of predicted ratings are:
 1) Mean Absolute Error (MAE)	
 
 2) Root Mean Squared Error (RMSE)
 
-MAE is average of the differences between values predicted by a model or an estimator and the values observed. Meaning, it is the measure of difference between the Actual and predicted values.
+MAE is average of the differences between values predicted by a model or an estimator and the values observed. Meaning, it is the measure of difference between the actual and predicted values.
 
-RMSE is just the square root of MSE. The predicted values can positive or negative as they under or overestimates the actual value. Squaring the residuals, averaging the squares, and taking the square root gives us the RMSE error. 
+RMSE is just the square root of MSE. The predicted values can be positive or negative as they under or overestimates the actual value. Squaring the residuals, averaging the squares, and taking the square root gives us the RMSE error. 
 
 ## Description of the codes
+ProjectReport.pdf  - project report that include the documentation and results
+
+There are 5 codes in the SCR folder :
+1) Netflix_problem1
+
+2) Netflix_problem2
+
+3) Netflix_problem3a
+
+4) Netflix_problem3b
+
+5) Netflix_problem3c
 
 
 
