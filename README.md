@@ -11,6 +11,7 @@ Flow of this document:
 4) Conclusion
 
 
+
 ## Introduction
 Due to the predominance of the internet, more and more data is collected every day, so people now have too many options to choose from, so we are moving from the age of information to the age of recommendation. In the past, the number of movies that can be placed in a store was depended on the size of that store. Whereas, in the present days, the internet allows people to access abundant resources online. For instance, Netflix and Amazon has huge collection of movies. This has resulted in a new problem as people has a hard time selecting the items they want to see. This is where the recommender system comes in.
 
@@ -30,6 +31,7 @@ The project follows the below approaches:
 
 •	Evaluation- Mean Absolute Error and Root Mean Squared Error
 
+
 ### User-user
 In order to make a new recommendation to a user, user-user method roughly tries to identify users with the most similar “interactions profile” (nearest neighbours) to suggest items that are the most popular among these neighbours which are are new to the user. This method is said to be “user-centred” as it represent users based on their interactions with items and evaluate distances between users.
 
@@ -44,12 +46,10 @@ MAE is average of the differences between values predicted by a model or an esti
 
 RMSE is just the square root of MSE. The predicted values can be positive or negative as they under or overestimates the actual value. Squaring the residuals, averaging the squares, and taking the square root gives us the RMSE error. 
 
-## Description of the codes
-ProjectReport.pdf  - project report that include the documentation and results
-
+## Description of the files
+ProjectReport.pdf  - project report that include the documentation and results.
 
 There are 5 codes in the SCR folder :
-(The clear description is given in the report and in the jupyter notbook)
 
 1) Netflix_problem1 - ALS approach (Revising)
 
@@ -63,6 +63,8 @@ Note : The data for the above 4 codes is not provided in the repository.
 
 5) Netflix_problem3c - Implemented the same approach on Amazon Product Data downloaded from https://nijianmo.github.io/amazon/index.html 
 
+
+The clear description is given in the report and in the jupyter notbook. SYSTEM CONFIGURATION is included in the report
 
 ## Conclusion
 
