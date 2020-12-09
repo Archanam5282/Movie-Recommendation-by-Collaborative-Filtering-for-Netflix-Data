@@ -17,7 +17,7 @@ Due to the predominance of the internet, more and more data is collected every d
 
 Big data is the driving force behind Recommendation systems. A typical Recommendation system cannot do its job without sufficient data and big data supplies plenty of user data such as past purchases, browsing history, and feedback for the Recommendation systems to provide relevant and effective recommendations. Hence, data engineering approaches are useful to address these problems.
 
-The goal of this project is to analyze the NETFLIX data using SPARK and based on the outcomes of this analysis, develop a feasible and efficient implementation of the collaborative filtering algorithm in PYSPARK. In this project, around 100,000 movie ratings are predicted for users in a subset of the original NETFLIX data issued for the NETFLIX Prize. This challenge aimed at substantially improving the accuracy of predictions about how much someone is going to enjoy a movie based on their movie preferences
+The goal of this project is to analyze the NETFLIX data using SPARK and based on the outcomes of this analysis, develop a feasible and efficient implementation of the collaborative filtering algorithm in SPARK. In this project, around 100,000 movie ratings are predicted for users in a subset of the original NETFLIX data issued for the NETFLIX Prize. This challenge aimed at substantially improving the accuracy of predictions about how much someone is going to enjoy a movie based on their movie preferences
 
 
 ## Approach
